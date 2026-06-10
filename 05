@@ -1,0 +1,10 @@
+// Questão 5
+
+int game01, game02, game03, matchmaking;
+game01 = 362;
+game02 = 278;
+game03 = 654;
+
+matchmaking = game03 + game02 + game01 /3;
+
+Console.WriteLine("O seu nível de matchmaking é: " + matchmaking + ".");
