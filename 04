@@ -1,0 +1,11 @@
+// Questão 4
+
+double metros, pixels;
+
+Console.WriteLine("Insira a posição do herói no mapa (em metros):");
+
+metros = Convert.ToDouble(Console.ReadLine());
+
+pixels = metros * 64;
+
+Console.WriteLine("A posição do sprite na tela é de: " + pixels + "pixels.");
