@@ -1,0 +1,11 @@
+// Questão 02
+
+int pontos01, pontos02, pontos;
+
+Console.WriteLine("Caro " + nome + ", por favor insira a pontuação da sua primeira missão.");
+pontos01 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Caro " + nome + ", por favor insira a pontuação da sua segunda missão.");
+pontos02 = Convert.ToInt32(Console.ReadLine());
+pontos = pontos01 + pontos02;
+
+Console.WriteLine("Seu score é: " + pontos);
