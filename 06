@@ -1,0 +1,8 @@
+// Questão 6
+
+double temp_celsius, temp_fahreinheint, conversao;
+temp_celsius = 20;
+conversao = (temp_celsius * 1.8) + 32;
+temp_fahreinheint = conversao;
+Console.WriteLine("A temperatura atual é de: " + temp_celsius + "°C. Convertida para Fahreinheint é igual a: " + 
+    temp_fahreinheint + "°F.");
