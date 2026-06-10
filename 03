@@ -1,0 +1,19 @@
+
+// Questão 3
+
+string pocao01, pocao02, pocao03;
+int preco01, preco02, preco03;
+pocao01 = "Poção de cura LV I";
+pocao02 = "Poção de cura LV II";
+pocao03 = "Poção de cura LV III";
+
+preco01 = 50;
+preco02 = 75;
+preco03 = 99;
+
+Console.WriteLine("|-----------------------------------------|");
+Console.WriteLine("|----------- Loja de Poções --------------|");
+Console.WriteLine("|-------- " + pocao01 + " = " + preco01 + " --------|");
+Console.WriteLine("|-------- " + pocao02 + " = " + preco02 + " -------|");
+Console.WriteLine("|------- " + pocao03 + " = " + preco03 + " -------|");
+Console.WriteLine("|-----------------------------------------|");
